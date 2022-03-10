@@ -4,11 +4,12 @@ import Addrobotinput from "../components/AddRobotInput";
 import Header from "../components/Header";
 import Resume from "../components/Resume";
 import Robotactions from "../components/RobotActions";
+import './MainPage.css'
 
 const Mainpage = () => {
   return (
-    <div>
-      <Header className="header"/>
+    <div className="MainPage">
+      <Header/>
       <Resume />
       <Addrobotinput />
       <Robotactions />
