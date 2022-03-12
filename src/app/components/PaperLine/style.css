@@ -1,0 +1,42 @@
+#paper {
+  display: flex;
+  width: 90%;
+  height: 17px;
+  margin-bottom: 8px;
+}
+
+#paper-name {
+  background-color: rgba(0, 179, 157, 1);
+  color: white;
+  padding-top: 3px;
+  padding-bottom: 1px;
+  padding-left: 6px;
+  padding-right: 10px;
+  border-radius: 2px;
+  font-size: 12px;
+}
+
+#space {
+  border: 1px dashed;
+  height: 0;
+  color: rgba(197, 197, 197, 1);
+  width: 100%;
+}
+
+#paper-transactions {
+  display: flex;
+  /* margin: auto; */
+}
+
+#transaction-quantity {
+ margin: auto;
+ margin-right: 3px;
+ font-weight: bold;
+ font-size: 12px;
+
+}
+#transaction-name {
+  margin: auto;
+  color: rgba(136, 134, 137, 1);
+  font-size: 12px;
+}
