@@ -1,6 +1,6 @@
 // this component render six RobotCards.
 import React from 'react';
-import Robotcard from "./RobotCard";
+import Robotcard from "../RobotCard";
 
 const Robotactions = () => {
   return (
