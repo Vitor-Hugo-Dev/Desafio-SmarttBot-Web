@@ -1,0 +1,50 @@
+#add-robot {
+  width: 96%;
+  height: 118px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 1);
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+}
+
+#add-robot-icon {
+  width: 75px;
+  height: 70px;
+  border: 1px solid #E3E2E3;
+  border-radius: 4px;
+  margin-left: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#add-robot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+#add-robot-button {
+  font-weight: 500;
+}
+
+#add-robot-text  {
+  display: flex;
+  font-size: 12px;
+  color: #B1B0B2;
+}
+
+#add-robot-text > p {
+  margin-top: 0;
+}
+
+#add-robot-text2 {
+  margin-left: 2px;
+  margin-right: 2px;
+  color: rgba(0, 179, 157, 1);
+  font-weight: 500;
+}

@@ -1,6 +1,5 @@
-// this page rendes all components
 import React from 'react';
-import Addrobotinput from "../../components/AddRobotInput";
+import Addrobotinput from "../../components/AddRobot";
 import Header from "../../components/Header";
 import Resume from "../../components/Resume";
 import Robotactions from "../../components/RobotActions";
@@ -11,8 +10,8 @@ const Mainpage = () => {
     <div className="MainPage">
       <Header/>
       <Resume />
-      {/* <Addrobotinput />
-      <Robotactions /> */}
+      <Addrobotinput />
+      {/* <Robotactions /> */}
       
     </div>
   );
