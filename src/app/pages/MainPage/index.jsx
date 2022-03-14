@@ -11,7 +11,7 @@ const Mainpage = () => {
       <Header/>
       <Resume />
       <Addrobotinput />
-      {/* <Robotactions /> */}
+      <Robotactions />
       
     </div>
   );

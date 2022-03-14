@@ -1,13 +1,20 @@
-// this component render six RobotCards.
 import React from 'react';
-import Robotcard from "../RobotCard";
+import Robotcard from '../RobotCard';
+import './style.css';
 
 const Robotactions = () => {
   return (
-    <div>
+    <div id="container-actions">
+      <Robotcard />
+      <Robotcard />
+      <Robotcard />
+      <Robotcard />
+      <Robotcard />
+      <Robotcard />
+      <Robotcard />
       <Robotcard />
     </div>
   );
-}
+};
 
 export default Robotactions;
