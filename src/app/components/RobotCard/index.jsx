@@ -1,7 +1,7 @@
-// this component is a generic card. From facility personalize
 import React from 'react';
 import './style.css'
 import { AiFillCaretUp } from 'react-icons/ai';
+import { BsChevronDown } from 'react-icons/bs'
 
 const Robotcard = () => {
   return (
@@ -37,8 +37,18 @@ const Robotcard = () => {
           </div>
         </div>
       </div>
-      <div>
-
+      <div id="card-subcontainer3">
+        <div id="daily-balance">
+          <div id="daily-balance-title">
+            <p>Saldo diário</p>
+            <BsChevronDown id="arrow-down"/>
+          </div>
+          <p>-R$220,00</p>
+        </div>
+        <div id="day-trades">
+          <p id="day-trades-title">Trades no dia</p>
+          <p id="day-trades-num">7</p>
+        </div>
       </div>
     </div>
   );
