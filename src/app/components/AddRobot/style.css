@@ -28,10 +28,17 @@
   align-items: flex-start;
   margin-left: 25px;
   margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 #add-robot-button {
   font-weight: 500;
+}
+
+#add-robot-button:hover {
+  cursor:pointer;
+  transition: 0.2s;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.6);
 }
 
 #add-robot-text  {
