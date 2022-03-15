@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import Context from './context';
 
 function Provider({ children }) {
-  const [cart, setCart] = useState([]);
-  const contextValue = { cart, setCart };
+  const [infos, setInfos] = useState({});
+  const contextValue = { infos, setInfos };
 
   return (
     <Context.Provider value={ contextValue }>
