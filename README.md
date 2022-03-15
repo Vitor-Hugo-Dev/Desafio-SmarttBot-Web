@@ -10,7 +10,7 @@
 - [Tecnologias utilizadas](#Tecnologias-utilizadas)
 - [Resumo](#Resumo)
 - [Para rodar o projeto localmente](#Para-rodar-o-projeto-localmente)
-- [Para rodar os testes](#Para rodar os testes)
+- [Para rodar os testes](#Para-rodar-os-testes)
 
 ## Tecnologias utilizadas:
 
