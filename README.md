@@ -49,3 +49,7 @@ ou
 ```
 	$ npm run cy:open
 ```
+
+# Deploy:
+
+- [link](https://vitor-hugo-dev-smarttbot.herokuapp.com/)
