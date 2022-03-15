@@ -43,6 +43,12 @@ justify-content: flex-start;
   font-size: 12px;
 }
 
+#info1-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
 #info1-value {
   margin: 0;
   color: rgba(255, 69, 1, 1);
@@ -89,6 +95,10 @@ justify-content: flex-start;
   width: 96%;
   height: 75px;
   margin-left: 25px;
+}
+
+#papers > p {
+  margin-bottom: 15px;
 }
 
 #papers-title {
