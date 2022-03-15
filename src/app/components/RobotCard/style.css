@@ -126,11 +126,9 @@ p {
 #profit > p {
   margin-left: 5px;
   font-size: 14px;
-  color: rgba(0, 179, 157, 1);
 }
 
 #arrow {
-  color: rgba(0, 179, 157, 1);
   font-size: 13px;
 }
 
@@ -180,4 +178,12 @@ p {
 #day-trades-num {
   font-size: 20px;
   font-weight: 700;
+}
+
+.green-color {
+  color: rgba(0, 179, 157, 1);
+}
+
+.red-color {
+  color: rgba(255, 69, 1, 1);
 }
