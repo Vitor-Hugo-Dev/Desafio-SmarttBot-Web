@@ -11,7 +11,7 @@ const Mainpage = () => {
 
   return (
     <div className="MainPage">
-      <div>{visibleModal === true ? (<Modal createRobot={setVisibleModal}/>) : null}</div>
+      {visibleModal === true ? (<Modal createRobot={setVisibleModal}/>) : null}
       <Header/>
       <Resume />
       <Addrobotinput createRobot={setVisibleModal}/>
