@@ -1,4 +1,4 @@
-import './App.css';
+import React from "react";
 import Mainpage from "./app/pages/MainPage";
 import Provider from "./context/provider";
 
@@ -7,7 +7,7 @@ function App() {
   return (
   <Provider>
     <div className="App">
-      <Mainpage/>
+      <Mainpage />
     </div>
   </Provider>  
   );
