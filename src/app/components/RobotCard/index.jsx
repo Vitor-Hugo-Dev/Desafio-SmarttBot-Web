@@ -21,7 +21,7 @@ const Robotcard = (props) => {
     <div id="container-card">
       <div id="card-subcontainer1">
         <div className="div-flex div-titles">
-          <p>{String(robot.title).slice(0, 14)}</p>
+          <p id="card-title">{String(robot.title).slice(0, 14)}</p>
           <div id="state">
             <span id="green-ball"></span>
             <p>Em execução</p>
