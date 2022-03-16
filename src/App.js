@@ -5,11 +5,9 @@ import Provider from "./context/provider";
 function App() {
 
   return (
-  <Provider>
     <div className="App">
       <Mainpage />
     </div>
-  </Provider>  
   );
 }
 
