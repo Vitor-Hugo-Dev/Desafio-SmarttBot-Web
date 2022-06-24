@@ -21,7 +21,7 @@
 
 ## Resumo:
 
-Neste projeto pude demonstrar um pouco do meu conhecimento em Desenvolvimento Front-End com o Framework React.js. E um pouco do conhecimento que venho adquirindo em Testes automatizados. Optei por não utilizar TypeScript nesse projeto pois, pois ainda estou aprendendo e achei que não ia conseguir terminar no prazo proposto.
+Neste projeto pude demonstrar um pouco do meu conhecimento em Desenvolvimento Front-End com o Framework React.js. E um pouco do conhecimento que venho adquirindo em Testes automatizados.
 
 ## Para rodar o projeto localmente:
 
